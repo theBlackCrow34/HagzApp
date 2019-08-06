@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.ChatActivity">
+
+    <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+        android:layout_width="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="60dp"
+        android:src="@drawable/test_photo"
+        android:id="@+id/image_chat_activity"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+    <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sherif mohamed"
+        android:id="@+id/name_chat_activity"
+        android:textSize="14sp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image_chat_activity"
+        android:layout_marginTop="10dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/layout_message"
+        android:layout_below="@+id/name_chat_activity"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_chat_activity">
+
+    </android.support.v7.widget.RecyclerView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/layout_message"
+        android:layout_height="wrap_content">
+        <proff.freelancer.sherif.hagzapp.CustomFonts.EditeTextFont
+            android:layout_width="match_parent"
+            android:paddingRight="60dp"
+            android:hint="اكتب رسالتك هنا..."
+            android:id="@+id/enter_message"
+            android:layout_centerVertical="true"
+            android:textDirection="rtl"
+            android:layout_height="60dp" />
+        <ImageView
+            android:layout_width="60dp"
+            android:id="@+id/send_message"
+            android:layout_centerVertical="true"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/send_message"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".views.MainOptionLogin">
+     <!--must change to white logo-->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_all_white"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+    <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/round_rec_dark"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:id="@+id/login"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="تسجيل دخول"/>
+
+    <proff.freelancer.sherif.hagzapp.CustomFonts.ButtonFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="سجل كمقدم خدمة"
+        android:id="@+id/login_as_presenter"
+        android:drawableEnd="@drawable/profile_blue"
+        android:paddingRight="20dp"
+        android:textSize="23sp"
+        android:background="@drawable/round_gray"
+        android:drawableRight="@drawable/profile_blue" />
+    <proff.freelancer.sherif.hagzapp.CustomFonts.ButtonFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="سجل كمستخدم"
+        android:id="@+id/login_as_user"
+        android:drawableEnd="@drawable/profile_blue"
+        android:paddingRight="20dp"
+        android:textSize="23sp"
+        android:background="@drawable/round_gray"
+        android:drawableRight="@drawable/profile_blue" />
+    <proff.freelancer.sherif.hagzapp.CustomFonts.ButtonFont
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/no_login"
+        android:layout_marginTop="20dp"
+        android:text="تصفح العروض"
+        android:drawableEnd="@drawable/explore_services"
+        android:paddingRight="20dp"
+        android:textSize="23sp"
+        android:background="@drawable/round_gray"
+        android:drawableRight="@drawable/explore_services" />
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/item_mail_list_time"
+                android:layout_height="wrap_content"
+                android:textSize="9sp"
+                android:text="2 hours later"/>
+            <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:textColor="#000000"
+                android:gravity="right"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:id="@+id/item_mail_list_name"
+                android:textStyle="bold"
+                android:text="أحمد صلاح"/>
+        </LinearLayout>
+        <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/item_mail_list_message"
+            android:layout_marginTop="10dp"
+            android:text="wflqjhwfjwbqdbdkqkbwdk"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:id="@+id/item_mail_list_image"
+            android:src="@drawable/logo"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

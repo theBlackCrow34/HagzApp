@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.ConfigurationActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="40dp"
+        android:layout_height="320dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_above="@+id/enter_review"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:text="أدخل رقم التعامل لكي تتمكن من التقييم"/>
+
+            <proff.freelancer.sherif.hagzapp.CustomFonts.EditeTextFont
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/enter_review"
+                android:textSize="18sp"
+                android:hint="أدخل الرقم هنا"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@drawable/round_gray"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp"
+                />
+            <proff.freelancer.sherif.hagzapp.CustomFonts.ButtonFont
+                android:layout_width="60dp"
+                android:textAlignment="center"
+                android:layout_height="30dp"
+                android:id="@+id/agree_review"
+                android:layout_below="@+id/enter_review"
+                android:layout_centerHorizontal="true"
+                android:textColor="#ffffff"
+                android:background="@drawable/round_round_dark"
+                android:text="موافق"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/all_logo"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

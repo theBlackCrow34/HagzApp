@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.AddServiceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/all_logo"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"/>
+        <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="23sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="إضافة خدمة"/>
+        <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:text="اسم الخدمة"/>
+
+        <proff.freelancer.sherif.hagzapp.CustomFonts.EditeTextFont
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/rect_strock"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            />
+        <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:text="نوع الخدمة"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:text="تأجير سيارات"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:text="تأجير قاعة مناسبات"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"
+                android:text="تأجير فندق"/>
+
+        </RadioGroup>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="wrap_content"
+                    android:text="العرض"/>
+                <proff.freelancer.sherif.hagzapp.CustomFonts.EditeTextFont
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/round_str"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="wrap_content"
+                    android:text="العملة"/>
+                <proff.freelancer.sherif.hagzapp.CustomFonts.EditeTextFont
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/round_str"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <proff.freelancer.sherif.hagzapp.CustomFonts.TextViewFont
+                    android:layout_width="wrap_content"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_height="wrap_content"
+                    android:text="السعر"/>
+                <proff.freelancer.sherif.hagzapp.CustomFonts.EditeTextFont
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:textSize="14sp"
+                    android:layout_gravity="center"
+                    android:padding="2dp"
+                    android:background="@drawable/round_str"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <proff.freelancer.sherif.hagzapp.CustomFonts.ButtonFont
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:textSize="14sp"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/btn_add_service"
+            android:layout_gravity="center"
+            android:background="@drawable/round_round_dark"
+            android:text="إضافة"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
